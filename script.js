@@ -63,7 +63,7 @@ image1.addEventListener('load',function()
     // a particles array to store each particale.
     let particlesArray = [];
     // the total number of particles will display
-    const numberOfParticles = 30000;
+    const numberOfParticles = 20000;
 
     // get the image data(with a data array and a image height and width), in full canvas size
     const pixels = ctx.getImageData(0,0,canvas.width,canvas.height);
