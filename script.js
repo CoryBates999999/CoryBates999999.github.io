@@ -122,7 +122,7 @@ image1.addEventListener('load',function()
             // this velocity value will add to speed to give some random to the speed.
             this.velocity = Math.random() * 1;
             // the size of the particle
-            this.size = Math.random()*1.5+1;
+            this.size = Math.random()*1.5+4;
             // position is used to map the (x,y) location of the particle with the mappedImage[position1][position2]
             // the y position of the particle(index of the mappedImage array has to be integer, aka pixle has to be integer)
             this.position1 = Math.floor(this.y);
